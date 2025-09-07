@@ -1,4 +1,6 @@
 
+
+// Funciones en javascript 
 function logica (a,b){
     console.log(arguments);
      return a + b  ;

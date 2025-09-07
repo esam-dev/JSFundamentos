@@ -46,7 +46,7 @@ console.log("Resultado Exponente:",resultExponente);
  let num1 = parseInt(prompt('Ingrese el primer número: '));
  let num2 = parseInt(prompt('Ingrese el segundo número: '));
  let suma = num1 + num2;
- let resta = num1 + num2;
+ let resta = num1  -  num2;
  let multiplicacion = num1 * num2;
  let division = num1 / num2;
  let modulo = num1 % num2; 
