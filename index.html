@@ -18,14 +18,15 @@
     </script>
 </body>
 </html> -->
-<input id="task" placeholder="Nueva tarea">
-<button id="addBtn">Agregar</button>
-<ul id="list"></ul>
+<input id="task" placeholder="Nueva tarea"> // para leer la entrada del usuario 
+<button id="addBtn">Agregar</button> // boton con evento
+<ul id="list"></ul> // creacio de una lista 
 <script>
+  // constantes de entrada, evento y  crear lista 
 const input = document.getElementById("task");
 const btn = document.getElementById("addBtn");
 const list = document.getElementById("list");
-
+// fat arrow function  
 btn.onclick = () => {
   if(input.value){
     const li = document.createElement("li");
