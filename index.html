@@ -1,4 +1,4 @@
-
+<!-- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,4 +17,21 @@
 
     </script>
 </body>
-</html>
+</html> -->
+<input id="task" placeholder="Nueva tarea">
+<button id="addBtn">Agregar</button>
+<ul id="list"></ul>
+<script>
+const input = document.getElementById("task");
+const btn = document.getElementById("addBtn");
+const list = document.getElementById("list");
+
+btn.onclick = () => {
+  if(input.value){
+    const li = document.createElement("li");
+    li.textContent = input.value;
+    list.appendChild(li);
+    input.value = "";
+  }
+};
+</script>
