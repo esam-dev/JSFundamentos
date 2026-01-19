@@ -1,3 +1,5 @@
+
+
 // Los arrays o arreglos en javascript
 let animales = ['Chanchito','Caballo'];
 console.log(animales);
